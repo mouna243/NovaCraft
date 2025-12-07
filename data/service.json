@@ -1,0 +1,22 @@
+[
+    {
+        "icon": "fa-solid fa-code",
+        "title": "Développement Web",
+        "description": "Création de sites web modernes, rapides et responsives."
+    },
+    {
+        "icon": "fa-solid fa-mobile-screen",
+        "title": "Applications Mobile",
+        "description": "Développement d'applications Android et iOS performantes."
+    },
+    {
+        "icon": "fa-solid fa-cloud",
+        "title": "Cloud & Hébergement",
+        "description": "Solutions d'hébergement sécurisées et disponibles 24/7."
+    },
+    {
+        "icon": "fa-solid fa-lock",
+        "title": "Cybersécurité",
+        "description": "Protection de vos systèmes contre les attaques et intrusions."
+    }
+]
