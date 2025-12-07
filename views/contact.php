@@ -48,9 +48,7 @@ if (empty($_POST['name']) || empty($_POST['age']) || empty($_POST['email'])) {
     $age = $_POST['age'];
     $email = $_POST['email'];
     $msg = $_POST['msg'];
-    $nameRequerd = "";
-    $ageRequerd = "";
-    $emailRequerd = "";
+   
 
 
 
@@ -79,7 +77,6 @@ if (empty($_POST['name']) || empty($_POST['age']) || empty($_POST['email'])) {
     echo "<p class ='absolute top-1/4 bg-[#f2b3f45f] text-[#017552] border-[10px] rounded-[40px] p-[10px] text-[20px]'>La formule a ete bien remplie <i class='fa-regular fa-face-smile-beam'></i></p>";
     return;
 
-    // echo " <div class=' border-2 border-l-5 border-blue-200 rounded-[20px] p-3'><strong title ='" . $name . "'>" . $name . "</strong><br><p>" . $msg . "</p></div>";
 
 
 }
