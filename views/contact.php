@@ -48,7 +48,6 @@ if (empty($_POST['name']) || empty($_POST['age']) || empty($_POST['email'])) {
     $age = $_POST['age'];
     $email = $_POST['email'];
     $msg = $_POST['msg'];
-   
 
 
 
