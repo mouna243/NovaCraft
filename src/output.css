@@ -570,6 +570,10 @@ video {
   top: 25%;
 }
 
+.top-1\/2 {
+  top: 50%;
+}
+
 .flex {
   display: flex;
 }
@@ -598,6 +602,34 @@ video {
   height: auto;
 }
 
+.h-\[\] {
+  height: ;
+}
+
+.h-\[45\] {
+  height: 45;
+}
+
+.h-\[45p\] {
+  height: 45p;
+}
+
+.h-\[45px\] {
+  height: 45px;
+}
+
+.h-\[px\] {
+  height: px;
+}
+
+.h-\[700px\] {
+  height: 700px;
+}
+
+.h-\[600px\] {
+  height: 600px;
+}
+
 .w-\[100\%\] {
   width: 100%;
 }
@@ -616,6 +648,30 @@ video {
 
 .w-\[90\%\] {
   width: 90%;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[77px\] {
+  width: 77px;
+}
+
+.w-\[px\] {
+  width: px;
+}
+
+.w-\[500px\] {
+  width: 500px;
+}
+
+.w-\[00px\] {
+  width: 00px;
+}
+
+.w-\[700px\] {
+  width: 700px;
 }
 
 .flex-col {
@@ -642,6 +698,10 @@ video {
   gap: 1.75rem;
 }
 
+.gap-1 {
+  gap: 0.25rem;
+}
+
 .justify-self-center {
   justify-self: center;
 }
@@ -664,6 +724,10 @@ video {
 
 .rounded-\[50px\] {
   border-radius: 50px;
+}
+
+.rounded-\[\] {
+  border-radius: ;
 }
 
 .border {
@@ -735,6 +799,10 @@ video {
   background-color: rgb(216 180 254 / 0.3);
 }
 
+.bg-\[\#fed6ff5f\] {
+  background-color: #fed6ff5f;
+}
+
 .p-10 {
   padding: 2.5rem;
 }
@@ -765,6 +833,30 @@ video {
 
 .p-\[18px\] {
   padding: 18px;
+}
+
+.p-\[\] {
+  padding: ;
+}
+
+.p-\[3\] {
+  padding: 3;
+}
+
+.p-\[500px\] {
+  padding: 500px;
+}
+
+.p-\[5px\] {
+  padding: 5px;
+}
+
+.p-\[50px\] {
+  padding: 50px;
+}
+
+.p-9 {
+  padding: 2.25rem;
 }
 
 .text-center {
@@ -813,6 +905,21 @@ video {
   color: rgb(147 51 234 / var(--tw-text-opacity, 1));
 }
 
+.text-\[\#011711\] {
+  --tw-text-opacity: 1;
+  color: rgb(1 23 17 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#030117\] {
+  --tw-text-opacity: 1;
+  color: rgb(3 1 23 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#0c015d\] {
+  --tw-text-opacity: 1;
+  color: rgb(12 1 93 / var(--tw-text-opacity, 1));
+}
+
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -821,4 +928,9 @@ video {
 .hover\:bg-purple-200:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(233 213 255 / var(--tw-bg-opacity, 1));
+}
+
+.focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }
