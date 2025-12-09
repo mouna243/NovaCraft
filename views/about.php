@@ -2,8 +2,9 @@
     <link rel="stylesheet" href="./src/output.css">
 
 </head>
-<div class=" h-[120vh] flex flex-col items-center justify-center ">
-    <div class=" h-auto w-[40%] flex flex-col justify-center border rounded-[50px] border-black border-10 p-3">
+<div class=" h-auto flex items-center justify-center gap-3 p-10">
+    <img class="h-[700px] w-[700px] border rounded-[40px]" src="./assetes/about.jpeg" alt="">
+    <div class=" h-auto w-[40%] flex flex-col justify-center p-3">
         <h1 class="text-[50px] text-center"> About as</h1>
         <p class="text-center">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
             literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
