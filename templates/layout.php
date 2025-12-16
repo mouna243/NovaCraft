@@ -2,17 +2,25 @@
 
 $page = $_SERVER['REQUEST_URI'];
 // echo $page;
-if ($page === "/") {
-    $page = 'home';
+switch ($page) {
+      case '/':
+    include "views/home.php";
+    break;
+    case '/home':
+    include "views/home.php";
+    break;
+    case '/service':
+    include "views/service.php";
+    break;
+    case '/about':
+    include "views/about.php";
+    break;
+    case '/contact':
+    include "views/contact.php";
+    break;
+    
+    default:
+         include "views/404.php";
+        break;
 }
-
-
-$arrname = ['/home','/service', '/about', '/contact','/'];
-if (!in_array($page,$arrname)) {
-    include "views/404.php";
-    return;
-} else {
-    include "views/$page.php";
-}
-
 ?>
