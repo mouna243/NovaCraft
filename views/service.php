@@ -1,12 +1,12 @@
 <head>
-    <link rel="stylesheet" href="./src/output.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 
 </head>
 <div class=" h-auto flex flex-col items-center justify-center p-10 gap-7 ">
-    <h1 class="text-[50px]">Notre sevices</h1>
+    <h1 class="text-[50px] mt-[100px] ">Notre sevices</h1>
     <?php
-    $jsonData = file_get_contents("./data/service.json");
+    $jsonData = file_get_contents("../data/service.json");
     $data = json_decode($jsonData, true);
 
     if (!$data) {

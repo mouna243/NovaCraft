@@ -1,4 +1,12 @@
+<head>
+    <link rel="stylesheet" href="../src/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
 <?php
+// mysqli_connect();
+
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST'){
 if (empty($_POST['name']) || empty($_POST['age']) || empty($_POST['email'])) {

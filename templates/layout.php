@@ -3,24 +3,29 @@
 $page = $_SERVER['REQUEST_URI'];
 // echo $page;
 switch ($page) {
-      case '/':
-    include "views/home.php";
-    break;
+    case '/':
+        include  __DIR__. "/../views/home.php";
+        break;
     case '/home':
-    include "views/home.php";
-    break;
+        include  __DIR__. "/../views/home.php";
+        break;
     case '/service':
-    include "views/service.php";
-    break;
+        include  __DIR__. "/../views/service.php";
+        break;
     case '/about':
-    include "views/about.php";
-    break;
+        include  __DIR__. "/../views/about.php";
+        break;
     case '/contact':
-    include "views/contact.php";
-    break;
-    
+        include  __DIR__. "/../views/contact.php";
+        break;
+    case '/login':
+        include  __DIR__. "/../auth/login.php";
+        break;
+    case '/signin':
+        include __DIR__. "/../auth/register.php";
+        break;
+
     default:
-         include "views/404.php";
+        include  __DIR__. "/../views/404.php";
         break;
 }
-?>

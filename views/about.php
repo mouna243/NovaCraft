@@ -2,8 +2,8 @@
     <link rel="stylesheet" href="./src/output.css">
 
 </head>
-<div class=" h-auto flex items-center justify-center gap-3 p-10">
-    <img class="h-[700px] w-[700px] border rounded-[40px]" src="./assetes/about.jpeg" alt="">
+<div class=" h-full flex items-center justify-center gap-3 p-10">
+    <img class="h-[500px] w-[500px] border rounded-[40px] " src="./asset/about.jpeg" alt="">
     <div class=" h-auto w-[40%] flex flex-col justify-center p-3">
         <h1 class="text-[50px] text-center"> About as</h1>
         <p class="text-center">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
